@@ -21,14 +21,7 @@ namespace ConsoleApp1
                 }
                 
             }
-            string? sentence2="";
-            for (int i = 0; i < words.Count(); i++)
-            {
-                
-                sentence2 += words[i];
-                sentence2 += " ";
-            }
-            Console.WriteLine(sentence2);
+         
                 return count;
         }
         public static void Main()
@@ -49,3 +42,4 @@ namespace ConsoleApp1
         }
     }
 }
+
